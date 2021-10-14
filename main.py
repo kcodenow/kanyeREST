@@ -1,7 +1,6 @@
 from tkinter import *
 import requests
 
-# press btn for quote
 def get_quote():
     url = 'https://api.kanye.rest?format=text'
     response = requests.get(url)
